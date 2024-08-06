@@ -11,6 +11,9 @@ Request Delayer is a Firefox add-on designed to intercept and delay web requests
 - **Delay Requests**: Configure specific URLs to be delayed.
 - **Customizable Rules**: Add, edit, and delete delay rules via a user-friendly popup interface.
 - **Regex Support**: Use regular expressions to define URL patterns for more flexible rule configuration.
+- **Custom Random Delay**: Use a random delay of your choice
+- **Enbale/Desable** You have the option to turn on/off the delayer if you wish 
+
 
 ## Installation
 
@@ -33,7 +36,7 @@ Note: This is a temporary installation, and the add-on will be removed when Fire
 
 1. Click the Request Delayer icon in the toolbar.
 2. In the popup, enter the URL pattern in the RegExp format.
-3. Enter the delay time in milliseconds.
+3. Enter the start-end delay time in milliseconds.
 4. Click the "Add Rule" button to activate the delay.
 
 ### Viewing and Deleting Rules
