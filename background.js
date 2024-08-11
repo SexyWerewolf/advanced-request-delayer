@@ -29,7 +29,7 @@ browser.webRequest.onBeforeRequest.addListener(
 {
     "manifest_version": 2,
     "name": "Advanced Request Delayer",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Delays specific requests based on regex rules.",
     "permissions": [
         "webRequest",
