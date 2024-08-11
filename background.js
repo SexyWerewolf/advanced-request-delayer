@@ -25,31 +25,3 @@ browser.webRequest.onBeforeRequest.addListener(
   { urls: ["<all_urls>"] },
   ["blocking"]
 );
-(manifest.json)
-{
-    "manifest_version": 2,
-    "name": "Advanced Request Delayer",
-    "version": "1.2",
-    "description": "Delays specific requests based on regex rules.",
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "<all_urls>",
-        "storage"
-    ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
-    },
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "32": "icon.png"
-        },
-        "default_title": "Advanced Request Delayer"
-    },
-    "icons": {
-        "32": "icon.png"
-    }
-}
